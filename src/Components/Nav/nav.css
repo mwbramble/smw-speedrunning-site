@@ -1,0 +1,50 @@
+.nav{
+  /* background-color: ; */
+  overflow: hidden;
+  box-shadow: 1px 0 6px;
+  padding: 0 20vw;
+}
+
+.nav ul{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li{
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 5px 14px;
+  margin: 0 5px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.nav li a{
+  text-decoration: none;
+}
+
+/*
+.nav li a:hover{
+
+}
+
+.nav li a:active{
+
+}
+*/
+
+#seal{
+  height: 90px;
+  width: 90px;
+  float: left;
+  margin: 10px;
+  margin-left: 0;
+}
+
+#title{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

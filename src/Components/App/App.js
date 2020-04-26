@@ -8,41 +8,45 @@ import Glitches from '../Glitches/Glitches';
 import Glossary from '../Glossary/Glossary';
 import Resources from '../Resources/Resources';
 import NotFound from '../NotFound/NotFound';
+import Footer from '../Footer/Footer';
 
 export default class App extends Component{
   render(){
     return (
       <main role='main'>
         <Nav />
-        <Switch>
-          <Route
-            exact path='/'
-            component={Home}
-          />
-          <Route
-            exact path='/categories'
-            component={Categories}
-          />
-          <Route
-            exact path='/categories/:id'
-            component={CategoryPage}
-          />
-          <Route
-            exact path='/glitches'
-            component={Glitches}
-          />
-          <Route
-            exact path='/glossary'
-            component={Glossary}
-          />
-          <Route
-            exact path='/resources'
-            component={Resources}
-          />
-          <Route
-            component={NotFound}
-          />
-        </Switch>
+        <div className='content'>
+          <Switch>
+            <Route
+              exact path='/'
+              component={Home}
+            />
+            <Route
+              exact path='/categories'
+              component={Categories}
+            />
+            <Route
+              exact path='/categories/:id'
+              component={CategoryPage}
+            />
+            <Route
+              exact path='/glitches'
+              component={Glitches}
+            />
+            <Route
+              exact path='/glossary'
+              component={Glossary}
+            />
+            <Route
+              exact path='/resources'
+              component={Resources}
+            />
+            <Route
+              component={NotFound}
+            />
+          </Switch>
+        </div>
+        <Footer />
       </main>
     )
   }

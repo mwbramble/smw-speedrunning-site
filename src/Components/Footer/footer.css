@@ -1,0 +1,11 @@
+footer{
+  height: 54px;
+  /* margin-top: -54px; */
+  padding: 0 20vw;
+  border-top: 1px solid black;
+}
+
+footer p{
+  margin: 0;
+  padding: 16px 0;
+}
