@@ -4,7 +4,9 @@ import './resources.css';
 export default class Resources extends Component{
   render(){
     return (
-      <h1>Resources</h1>
+      <section className='resources-container'>
+        <h1>Resources</h1>
+      </section>
     )
   }
 }

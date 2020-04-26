@@ -4,7 +4,9 @@ import './notfound.css';
 export default class NotFound extends Component{
   render(){
     return (
-      <h1>404 Not Found</h1>
+      <section className='notfound-container'>
+        <h1>404 Not Found</h1>
+      </section>
     )
   }
 }
