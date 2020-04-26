@@ -4,11 +4,11 @@ import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
 import Categories from '../Categories/Categories';
 import CategoryPage from '../CategoryPage/CategoryPage';
-import Glitches from '../Glitches/Glitches';
+import Glitches from '../Unused/Glitches/Glitches';
 import Glossary from '../Glossary/Glossary';
 import Levels from '../Levels/Levels';
 import LevelPage from '../LevelPage/LevelPage';
-import Resources from '../Resources/Resources';
+import Resources from '../Unused/Resources/Resources';
 import NotFound from '../NotFound/NotFound';
 import Footer from '../Footer/Footer';
 
