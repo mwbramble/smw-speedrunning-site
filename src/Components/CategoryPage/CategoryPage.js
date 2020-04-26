@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CATEGORIES from '../../Data/categories';
+import CATEGORIES from '../../Data/categorydata';
 import './categorypage.css';
 
 export default class CategoryPage extends Component {

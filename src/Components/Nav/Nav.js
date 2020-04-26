@@ -11,7 +11,9 @@ export default class Nav extends Component{
         <h1 id='title'>SMW Speedrunning Info</h1>
         <ul className='nav-link-list'>
           <li>
-            Levels
+            <NavLink to={'/levels'} className='nav-link'>
+              Levels
+            </NavLink>
           </li>
           <li>
             <NavLink to={'/categories'} className='nav-link'>

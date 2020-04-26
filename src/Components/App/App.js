@@ -6,6 +6,8 @@ import Categories from '../Categories/Categories';
 import CategoryPage from '../CategoryPage/CategoryPage';
 import Glitches from '../Glitches/Glitches';
 import Glossary from '../Glossary/Glossary';
+import Levels from '../Levels/Levels';
+import LevelPage from '../LevelPage/LevelPage';
 import Resources from '../Resources/Resources';
 import NotFound from '../NotFound/NotFound';
 import Footer from '../Footer/Footer';
@@ -36,6 +38,14 @@ export default class App extends Component{
             <Route
               exact path='/glossary'
               component={Glossary}
+            />
+            <Route
+              exact path='/levels'
+              component={Levels}
+            />
+            <Route
+              exact path='/levels/:id'
+              component={LevelPage}
             />
             <Route
               exact path='/resources'

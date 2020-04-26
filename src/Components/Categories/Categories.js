@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CATEGORIES from '../../Data/categories';
+import CATEGORIES from '../../Data/categorydata';
 import {Link} from 'react-router-dom';
 import './categories.css';
 
