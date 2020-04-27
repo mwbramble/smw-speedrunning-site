@@ -21,11 +21,6 @@ export default class CategoryPage extends Component {
       time %= 3600;
       m = Math.floor(time / 60);
       s = (time % 60).toFixed(3);
-
-      // removes '.000' from the end of times that have them
-      if(s.substring(3, 6) === '000'){
-        s = s.substring(0, 2);
-      }
       
       // adds a zero to necessary parts of time
       // ex: '1:02:03.456' instead of '1:2:3.456'
@@ -36,6 +31,10 @@ export default class CategoryPage extends Component {
         s = '0' + s;
       }
 
+      // removes '.000' from the end of times that have them
+      if(s.substring(3) === '000'){
+        s = s.substring(0, 2);
+      }
       // this if/else gets rid of the hours section if it is 0
       // ex: '34:07.178' instead of '00:34:07.178'
       if(h === 0){
@@ -62,7 +61,7 @@ export default class CategoryPage extends Component {
       document.getElementById('lb-table-body').innerHTML += (`
         <tr>
           <td id='rank${i + 1}'>${i + 1}</td>
-          <td id='runner${i + 1}'>${this.state.data.players.data[i].names.international}</td>
+          <td id='runner${i + 1}'>${this.state.data.players.data[i].id ? this.state.data.players.data[i].names.international : this.state.data.players.data[i].name}</td>
           <td id='time${i + 1}'>${times[i]}</td>
         </tr>
       `)
@@ -84,6 +83,7 @@ export default class CategoryPage extends Component {
         <th>Time</th>
       </tr>
     `);
+    console.log(this.state.data.runs);
     this.populateTable(value);
   }
 
