@@ -56,19 +56,39 @@ export default class CategoryPage extends Component {
         </tr>
       `);
     }
-    for(let i = 0; i < runs; i++){
-      // some runs on srcom dont have names.international so it breaks
-      document.getElementById('lb-table-body').innerHTML += (`
-        <tr>
-          <td id='rank${i + 1}'>${i + 1}</td>
-          <td id='runner${i + 1}'>${this.state.data.players.data[i].id ? this.state.data.players.data[i].names.international : this.state.data.players.data[i].name}</td>
-          <td id='time${i + 1}'>${times[i]}</td>
-        </tr>
-      `)
-      // this fixes the rank column in the event of a tie
-      if(i > 0 && document.getElementById(`time${i + 1}`).innerHTML === document.getElementById(`time${i}`).innerHTML){
-        console.log('Iteration ' + i + 'match')
-        document.getElementById(`rank${i + 1}`).innerHTML = i;
+    // some categories do not have enough runs on the leaderboard to satisfy the options on the page, this fixes that
+    if(runs > times.length){
+      for(let i = 0; i < times.length; i++){
+        // some runs on srcom dont have names.international so it breaks
+        document.getElementById('lb-table-body').innerHTML += (`
+          <tr>
+            <td id='rank${i + 1}'>${i + 1}</td>
+            <td id='runner${i + 1}'>${this.state.data.players.data[i].id ? this.state.data.players.data[i].names.international : this.state.data.players.data[i].name}</td>
+            <td id='time${i + 1}'>${times[i]}</td>
+          </tr>
+        `)
+        // this fixes the rank column in the event of a tie
+        if(i > 0 && document.getElementById(`time${i + 1}`).innerHTML === document.getElementById(`time${i}`).innerHTML){
+          console.log('Iteration ' + i + 'match')
+          document.getElementById(`rank${i + 1}`).innerHTML = i;
+        }
+      }
+    }
+    else{
+      for(let i = 0; i < runs; i++){
+        // some runs on srcom dont have names.international so it breaks
+        document.getElementById('lb-table-body').innerHTML += (`
+          <tr>
+            <td id='rank${i + 1}'>${i + 1}</td>
+            <td id='runner${i + 1}'>${this.state.data.players.data[i].id ? this.state.data.players.data[i].names.international : this.state.data.players.data[i].name}</td>
+            <td id='time${i + 1}'>${times[i]}</td>
+          </tr>
+        `)
+        // this fixes the rank column in the event of a tie
+        if(i > 0 && document.getElementById(`time${i + 1}`).innerHTML === document.getElementById(`time${i}`).innerHTML){
+          console.log('Iteration ' + i + 'match')
+          document.getElementById(`rank${i + 1}`).innerHTML = i;
+        }
       }
     }
   }
