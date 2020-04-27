@@ -4,11 +4,13 @@ import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
 import Categories from '../Categories/Categories';
 import CategoryPage from '../CategoryPage/CategoryPage';
+import Contact from '../Contact/Contact';
 import Glitches from '../Unused/Glitches/Glitches';
 import Glossary from '../Glossary/Glossary';
+import GDQHistory from '../GDQHistory/GDQHistory';
 import Levels from '../Levels/Levels';
 import LevelPage from '../LevelPage/LevelPage';
-import Resources from '../Unused/Resources/Resources';
+import Resources from '../Resources/Resources';
 import NotFound from '../NotFound/NotFound';
 import Footer from '../Footer/Footer';
 
@@ -30,6 +32,14 @@ export default class App extends Component{
             <Route
               exact path='/categories/:id'
               component={CategoryPage}
+            />
+            <Route
+              exact path='/contact'
+              component={Contact}
+            />
+            <Route
+              exact path='/gamesdonequick'
+              component={GDQHistory}
             />
             <Route
               exact path='/glitches'

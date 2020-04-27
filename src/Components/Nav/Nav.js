@@ -26,7 +26,9 @@ export default class Nav extends Component{
             </NavLink>
           </li>
           <li>
-            Contact
+            <NavLink to={'/contact'} className='nav-link'>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>
