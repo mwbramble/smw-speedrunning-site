@@ -25,12 +25,21 @@ export default class LevelPage extends Component{
   }
 
   render(){
+    const defaultStrat = {
+      id: null,
+      name: null,
+      time: null,
+      link: null,
+      desc: null,
+      source: null
+    }
+
     return (
       <section className='level-page-container'>
         <h1>{this.state.l.name}</h1>
         <ul className='level-categories'>
           {this.state.l.categories.map(c =>
-            <li key={c.id} onClick={(e) => this.setState({activeCategory: c})}>{c.title}</li>
+            <li key={c.id} onClick={(e) => this.setState({activeCategory: c, activeStrat: defaultStrat})}>{c.title}</li>
           )}
         </ul>
         <div className='level-active-category'>
