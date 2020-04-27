@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import LEVELS from '../../Data/leveldata';
+import './levelpage.css';
 
 export default class LevelPage extends Component{
   constructor(props){
@@ -84,7 +85,7 @@ export default class LevelPage extends Component{
         <div className='level-info'>
           <img src={this.state.l.image} alt='Screenshot' />
           <p>Available Powerups: {this.state.l.powerups.join(', ')}</p>
-          <p>This level {this.state.l.dragoncoins ? 'has' : 'does not have'} Dragon Coins.</p>
+          <p>This level {this.state.l.dragoncoins ? 'has' : 'does not have'} Dragon Coins{this.state.l.moon ? ' and a Moon' : ''}.</p>
         </div>
       </section>
     )

@@ -361,6 +361,28 @@ export default [
       },
     ]
   },
+  { // Cheese Bridge Area
+    name: `Cheese Bridge Area`,
+    id: 'F',
+    world: 4,
+    image: null,
+    powerups: ['Cape'],
+    dragoncoins: true,
+    moon: true,
+    categories: [
+      {
+        title: `96 Exit`,
+        exits: {
+          normal: {
+            strats: []
+          },
+          secret: {
+            strats: []
+          }
+        }
+      },
+    ]
+  },
   {
     name: `Vanilla Dome 1`,
     id: '11A',
