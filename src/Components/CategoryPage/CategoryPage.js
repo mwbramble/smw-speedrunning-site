@@ -1,3 +1,5 @@
+// TODO: add something that alerts the user when there arent enough runs to display
+
 import React, {Component} from 'react';
 import CATEGORIES from '../../Data/categorydata';
 import './categorypage.css';

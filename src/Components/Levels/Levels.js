@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import LEVELS from '../../Data/leveldata';
+import './levels.css';
 
 export default class Levels extends Component{
   render(){
