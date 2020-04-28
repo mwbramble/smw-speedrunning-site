@@ -99,7 +99,7 @@ export default [
     dragoncoins: true,
     categories: [
       {
-        title: `96 Exit`,
+        title: `All Categories`,
         exits: {
           normal: {
             strats: [
@@ -117,48 +117,12 @@ export default [
         }
       },
       {
-        title: `All Castles`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 2,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Starworld`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 3,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
         title: `11 Exit`,
         exits: {
           normal: {
             strats: [
               {
-                id: 4,
+                id: 2,
                 name: `B5 Cloud Setup`,
                 time: 356,
                 link: 'https://www.youtube.com/embed/ZhB4VpPE1SU',
@@ -166,7 +130,7 @@ export default [
                 source: `Dotsarecool`
               },
               {
-                id: 5,
+                id: 3,
                 name: `Easy Cloud Setup`,
                 time: 354,
                 link: 'https://www.youtube.com/embed/hk8rVl6ldwY',
@@ -174,7 +138,7 @@ export default [
                 source: `LostC0re`
               },
               {
-                id: 6,
+                id: 4,
                 name: `Get Yoshi, Midway (11 Exit (Orb))`,
                 time: 358,
                 link: 'https://www.youtube.com/embed/3LtxEmleBXY',
@@ -182,7 +146,7 @@ export default [
                 source: `Sten`
               },
               {
-                id: 7,
+                id: 5,
                 name: `Small Only (11 Exit (Glitchless))`,
                 time: 361,
                 link: 'https://www.youtube.com/embed/Hmod32SwX6w',
@@ -200,7 +164,7 @@ export default [
           normal: {
             strats: [
               {
-                id: 8,
+                id: 6,
                 name: `oh boy`,
                 time: 420,
                 link: '',
@@ -213,66 +177,12 @@ export default [
         }
       },
       {
-        title: `95 Exit, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 9,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 10,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Cape, No Starworld`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 11,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
         title: `11 Exit, No Cape`,
         exits: {
           normal: {
             strats: [
               {
-                id: 12,
+                id: 7,
                 name: `B5 Cloud Setup`,
                 time: 356,
                 link: 'https://www.youtube.com/embed/ZhB4VpPE1SU',
@@ -280,7 +190,7 @@ export default [
                 source: `Dotsarecool`
               },
               {
-                id: 13,
+                id: 8,
                 name: `Easy Cloud Setup`,
                 time: 354,
                 link: 'https://www.youtube.com/embed/hk8rVl6ldwY',
@@ -288,7 +198,7 @@ export default [
                 source: `LostC0re`
               },
               {
-                id: 14,
+                id: 9,
                 name: `Get Yoshi, Midway (11 Exit, No Cape (Orb))`,
                 time: 358,
                 link: 'https://www.youtube.com/embed/3LtxEmleBXY',
@@ -296,62 +206,8 @@ export default [
                 source: `Sten`
               },
               {
-                id: 15,
+                id: 10,
                 name: `Small Only (11 Exit, No Cape (Glitchless))`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles, Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 16,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Starworld, Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 17,
-                name: `Small Only`,
-                time: 361,
-                link: 'https://www.youtube.com/embed/Hmod32SwX6w',
-                desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 18,
-                name: `Small Only`,
                 time: 361,
                 link: 'https://www.youtube.com/embed/Hmod32SwX6w',
                 desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
@@ -368,7 +224,7 @@ export default [
           normal: {
             strats: [
               {
-                id: 19,
+                id: 11,
                 name: `Dragon Coins`,
                 time: 358,
                 link: 'https://www.youtube.com/embed/UvKYSsJGmN4',
@@ -391,7 +247,7 @@ export default [
     dragoncoins: true,
     categories: [
       {
-        title: `96 Exit`,
+        title: `All Categories`,
         exits: {
           normal: {
             strats: [
@@ -409,192 +265,12 @@ export default [
         }
       },
       {
-        title: `All Castles`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 2,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Starworld`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 3,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `11 Exit`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 4,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: `This strat is used for all three variants of 11 Exit.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `95 Exit, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 5,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 6,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Cape, No Starworld`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 7,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `11 Exit, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 8,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: `This strat is used for all three variants of 11 Exit, No Cape.`,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles, Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 9,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Starworld, Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 10,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 11,
-                name: `Small Only`,
-                time: 259,
-                link: 'https://www.youtube.com/embed/gE34tasCAhE',
-                desc: ``,
-                source: `Bramz`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
         title: `Lunar Dragon`,
         exits: {
           normal: {
             strats: [
               {
-                id: 19,
+                id: 2,
                 name: `Dragon Coins`,
                 time: 256,
                 link: 'https://www.youtube.com/embed/_eJgZYKl2iI',
@@ -617,7 +293,7 @@ export default [
     dragoncoins: true,
     categories: [
       {
-        title: `96 Exit`,
+        title: `All Categories`,
         exits: {
           normal: {
             strats: [
@@ -631,266 +307,6 @@ export default [
               },
               {
                 id: 2,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 3,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 4,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Starworld`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 5,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 6,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `11 Exit`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 7,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds. This can be done in all three variants of 11 Exit.`,
-                source: `Bramz`
-              },
-              {
-                id: 8,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: `This can be done in all three variants of 11 Exit.`,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `95 Exit, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 9,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 10,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 11,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 12,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Cape, No Starworld`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 13,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 14,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `11 Exit, No Cape`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 15,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds. This can be done in all three varaints of 11 Exit, No Cape.`,
-                source: `Bramz`
-              },
-              {
-                id: 16,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: `This can be done in all three varaints of 11 Exit, No Cape.`,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `All Castles, Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 17,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 18,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `No Starworld, Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 19,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 20,
-                name: `No Shell Jump`,
-                time: 275,
-                link: 'https://www.youtube.com/embed/liweWJF0l8A',
-                desc: ``,
-                source: `Sten`
-              },
-            ]
-          },
-          secret: null
-        }
-      },
-      {
-        title: `Small Only`,
-        exits: {
-          normal: {
-            strats: [
-              {
-                id: 21,
-                name: `Shell Jump`,
-                time: 276,
-                link: 'https://www.youtube.com/embed/4fYfXXLzkIY',
-                desc: `The shell jump saves about 0.25 seconds.`,
-                source: `Bramz`
-              },
-              {
-                id: 22,
                 name: `No Shell Jump`,
                 time: 275,
                 link: 'https://www.youtube.com/embed/liweWJF0l8A',
@@ -985,6 +401,764 @@ export default [
         },
       },
     ],
+  },
+  { // #1 Iggy's Castle
+    name: `#1 Iggy's Castle`,
+    id: '',
+    world: 1,
+    image: null,
+    powerups: ['Fire'],
+    dragoncoins: false,
+    categories: [
+      {
+        title: `All Categories`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 1,
+                name: `P-Switch Jump`,
+                time: 242,
+                link: 'https://www.youtube.com/embed/JQTpVqcTUAw',
+                desc: `This jump is frame perfect without a visual cue.`,
+                source: `Lambby`
+              },
+              {
+                id: 2,
+                name: `Underball`,
+                time: 242,
+                link: 'https://www.youtube.com/embed/O00lDZTnFrc',
+                desc: ``,
+                source: `Lambby`
+              },
+              {
+                id: 3,
+                name: `Get Fire`,
+                time: 241,
+                link: 'https://www.youtube.com/embed/JQTpVqcTUAw',
+                desc: ``,
+                source: `dram55`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `11 Exit`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 4,
+                name: `Stay Small`,
+                time: 240,
+                link: 'https://www.youtube.com/embed/XmSipnVHjR0',
+                desc: ``,
+                source: `Bramz`
+              },
+              {
+                id: 5,
+                name: `Use Orb`,
+                time: 299,
+                link: 'https://www.youtube.com/embed/ZzrkKKCinJ8',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `95 Exit, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 6,
+                name: `Stay Small`,
+                time: 240,
+                link: 'https://www.youtube.com/embed/XmSipnVHjR0',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `No Cape, No Starworld`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 7,
+                name: `Stay Small`,
+                time: 240,
+                link: 'https://www.youtube.com/embed/XmSipnVHjR0',
+                desc: `Do this strat if you get fire in Donut Plains 4.`,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Lunar Dragon`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 8,
+                name: `No Damage Boost`,
+                time: 241,
+                link: 'https://www.youtube.com/embed/1gjveh1zgps',
+                desc: `This saves 47 frames, as you don't transition from big to small.`,
+                source: `Lui`
+              },
+              {
+                id: 9,
+                name: `Damage Boost`,
+                time: 241,
+                link: 'https://www.youtube.com/embed/OfLVmLpit8A',
+                desc: `More consistent than avoiding damage.`,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+    ]
+  },
+  { // Donut Plains 1
+    name: `Donut Plains 1`,
+    id: '15',
+    world: 2,
+    image: null,
+    powerups: ['Mushroom', 'Cape', 'Yoshi'],
+    dragoncoins: true,
+    categories: [
+      {
+        title: `Cape Categories`,
+        exits: {
+          normal: null,
+          secret: {
+            strats: [
+              {
+                id: 1,
+                name: `DP1 Guy`,
+                time: 363,
+                link: '',
+                desc: ``,
+                source: ``
+              },
+              {
+                id: 2,
+                name: `Get Cape`,
+                time: 362,
+                link: '',
+                desc: ``,
+                source: ``
+              },
+            ]
+          }
+        }
+      },
+      {
+        title: `No Cape Categories`,
+        exits: {
+          normal: null,
+          secret: {
+            strats: [
+              {
+                id: 3,
+                name: `Fire, Get Yoshi`,
+                time: 360,
+                link: 'https://www.youtube.com/embed/8BcoB2klOis',
+                desc: ``,
+                source: `LostC0re`
+              },
+              {
+                id: 4,
+                name: `Small, Get Yoshi`,
+                time: 360,
+                link: 'https://www.youtube.com/embed/uCuITNVPnL8',
+                desc: ``,
+                source: `LostC0re`
+              },
+            ]
+          }
+        }
+      },
+      {
+        title: `Small Only Categories`,
+        exits: {
+          normal: null,
+          secret: {
+            strats: [
+              {
+                id: 5,
+                name: `Fast Strat`,
+                time: 360,
+                link: 'https://www.youtube.com/embed/5gCbb6b6WPU',
+                desc: `This saves two seconds over the other strat, but the turnaround is difficult.`,
+                source: `rezephos`
+              },
+              {
+                id: 6,
+                name: `Easier Strat`,
+                time: 358,
+                link: 'https://www.youtube.com/embed/h2cmrYzAsz8',
+                desc: ``,
+                source: `rezephos`
+              },
+            ]
+          }
+        }
+      },
+      
+      {
+        title: `96 Exit`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 5,
+                name: `Normal Strat`,
+                time: 363,
+                link: 'https://www.youtube.com/embed/dWrDGixjfLc',
+                desc: ``,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `95 Exit, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 6,
+                name: `Normal Strat`,
+                time: 358,
+                link: 'https://www.youtube.com/embed/wLECVSevi38',
+                desc: `You need Yoshi for the second half of Donut Plains and Vanilla Dome.`,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Lunar Dragon`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 7,
+                name: `Dragon Coins`,
+                time: 360,
+                link: 'https://www.youtube.com/embed/3tQ7jKb99lc',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+    ]
+  },
+  { // Donut Plains 2
+    name: `Donut Plains 2`,
+    id: '9',
+    world: 2,
+    image: null,
+    powerups: ['Mushroom', 'Cape'],
+    dragoncoins: true,
+    categories: [
+      {
+        title: `96 Exit`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 1,
+                name: `Normal Strat`,
+                time: 309,
+                link: 'https://www.youtube.com/embed/vu9T6OvAA-0',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: {
+            strats: [
+              {
+                id: 2,
+                name: `Faster Key Room`,
+                time: 311,
+                link: 'https://www.youtube.com/embed/84hpsmxbqUg',
+                desc: `This saves about half a second. Sometimes a football will spawn, but spinning the cape will normally get rid of it.`,
+                source: `ThirdLavaDolphin`
+              },
+              {
+                id: 3,
+                name: `Normal Strat`,
+                time: 310,
+                link: 'https://www.youtube.com/embed/AeqAIgJYWxE',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          }
+        }
+      },
+      {
+        title: `95 Exit, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 4,
+                name: `No Cape, Yoshi`,
+                time: 302,
+                link: 'https://www.youtube.com/embed/Rou31_cElic',
+                desc: ``,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: {
+            strats: [
+              {
+                id: 5,
+                name: `No Cape, Yoshi`,
+                time: 300,
+                link: 'https://www.youtube.com/embed/irWL4grV8aI',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          }
+        }
+      },
+      {
+        title: `Small Only`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 6,
+                name: `Small Only`,
+                time: 307,
+                link: 'https://www.youtube.com/embed/e4qE7-msEjo',
+                desc: ``,
+                source: `rezephos`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Lunar Dragon`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 7,
+                name: `Dragon Coins`,
+                time: 212,
+                link: 'https://www.youtube.com/embed/tVyUb4TxXeI',
+                desc: ``,
+                source: `Umari0`
+              },
+            ]
+          },
+          secret: {
+            strats: [
+              {
+                id: 8,
+                name: `Faster Key Room`,
+                time: 311,
+                link: 'https://www.youtube.com/embed/84hpsmxbqUg',
+                desc: `This saves about half a second. Sometimes a football will spawn, but spinning the cape will normally get rid of it.`,
+                source: `ThirdLavaDolphin`
+              },
+              {
+                id: 9,
+                name: `Normal Strat`,
+                time: 310,
+                link: 'https://www.youtube.com/embed/AeqAIgJYWxE',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          }
+        }
+      },
+    ]
+  },
+  { // Donut Plains 3
+    name: `Donut Plains 3`,
+    id: '5',
+    world: 2,
+    image: null,
+    powerups: ['Cape'],
+    dragoncoins: true,
+    categories: [
+      {
+        title: `Cape Categories`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 1,
+                name: `Normal Strat`,
+                time: 263,
+                link: 'https://www.youtube.com/embed/Wqf8eJtBHZI',
+                desc: ``,
+                source: `Bramz`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Small Only Categories`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 3,
+                name: `No Clouds`,
+                time: 262,
+                link: 'https://www.youtube.com/embed/IrpSBrAKy5E',
+                desc: `This is slightly faster than using the clouds and can be used as a backup in case the jump up to the clouds fails.`,
+                source: `rezephos`
+              },
+              {
+                id: 4,
+                name: `Clouds`,
+                time: 262,
+                link: 'https://www.youtube.com/embed/NvG4G74R9C4',
+                desc: `The jump up to the clouds has a 3/5 chance of succeeding as it is based on Mario's speed.`,
+                source: `rezephos`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `95 Exit, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 5,
+                name: `Platform Boosts`,
+                time: 262,
+                link: 'https://www.youtube.com/embed/aSx268oK5R8',
+                desc: `This strat saves half a second due to running on the spinning platforms.`,
+                source: `Lui`
+              },
+              {
+                id: 6,
+                name: `Normal Strat`,
+                time: 261,
+                link: 'https://www.youtube.com/embed/TVLsMlf2JOU',
+                desc: ``,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `No Cape, No Starworld and All Castles, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 2,
+                name: `Fire`,
+                time: 263,
+                link: 'https://www.youtube.com/embed/vPpYjSFLDBQ',
+                desc: `Alternatively, you can remain small and get fire in Donut Plains 4.`,
+                source: `Lambby`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Lunar Dragon`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 7,
+                name: `Normal Fly`,
+                time: 263,
+                link: 'https://www.youtube.com/embed/ffu0hLshGHI',
+                desc: ``,
+                source: `ThirdLavaDolphin`
+              },
+              {
+                id: 8,
+                name: `Spin Fly`,
+                time: 261,
+                link: 'https://www.youtube.com/embed/7gidgBgWupw',
+                desc: ``,
+                source: `Umari0`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+    ]
+  },
+  { // Donut Plains 4
+    name: `Donut Plains 4`,
+    id: '6',
+    world: 2,
+    image: null,
+    powerups: ['Mushroom', 'Fire', 'Cape', 'Yoshi'],
+    dragoncoins: true,
+    moon: true,
+    categories: [
+      {
+        title: `96 Exit & All Castles`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 1,
+                name: `Cape, Get Yoshi`,
+                time: 258,
+                link: 'https://www.youtube.com/embed/hu6HvOkz5Ao',
+                desc: `You need Yoshi to get wings in Vanilla Dome 1.`,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `No Starworld`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 2,
+                name: `Skip Yoshi`,
+                time: 263,
+                link: 'https://www.youtube.com/embed/pBLcg68HNq4',
+                desc: `You don't get Vanilla Dome 1 wings in this category, so you can skip Yoshi.`,
+                source: `LostC0re`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `95 Exit, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 3,
+                name: `No Cape, Yoshi, Get Fire`,
+                time: 260,
+                link: 'https://www.youtube.com/embed/Q1M-JRzfmus',
+                desc: ``,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `No Cape, No Starworld & All Castles, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 4,
+                name: `Blue Shell`,
+                time: 255,
+                link: 'https://www.youtube.com/embed/9_SEt-3bhfk',
+                desc: `The blue shell throw can be tricky. The yellow shell bounce at the beginning saves 0.3 seconds, but can be omitted.`,
+                source: `Lui`
+              },
+              {
+                id: 5,
+                name: `No Cape, Get Fire, Get Yoshi`,
+                time: 256,
+                link: 'https://www.youtube.com/embed/JNb9T2dPBww',
+                desc: `Do this strat if you are entering the stage small.`,
+                source: `MaestroBrau`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Small Only`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 6,
+                name: `Under Bro`,
+                time: 260,
+                link: 'https://www.youtube.com/embed/7O_v1oS8J9U',
+                desc: `The jump under the Hammer Bro has a small window.`,
+                source: `rezephos`
+              },
+              {
+                id: 7,
+                name: `Shell`,
+                time: 259,
+                link: 'https://www.youtube.com/embed/QrEUNQvJLCM',
+                desc: `This is a much more consistent strat.`,
+                source: `rezephos`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Lunar Dragon`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 8,
+                name: `Pipe Fly`,
+                time: 263,
+                link: 'https://www.youtube.com/embed/3FQsYybR3zM',
+                desc: `Spamming cape in the sublevel manipulates the camera and makes the pipe fly setup consistent.`,
+                source: `Lui`
+              },
+              {
+                id: 9,
+                name: `No Pipe Fly`,
+                time: 260,
+                link: 'https://www.youtube.com/embed/Mx0XBSkop1k',
+                desc: ``,
+                source: `Umari0`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+    ]
+  },
+  { // Green Switch Palace
+    name: `Green Switch Palace`,
+    id: '8',
+    world: 2,
+    image: null,
+    powerups: ['None'],
+    dragoncoins: false,
+    categories: [
+      {
+        title: `96 Exit`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 1,
+                name: `Pipe Fly`,
+                time: 190,
+                link: 'https://www.youtube.com/embed/bDUanTn1HQE',
+                desc: `Alternatively, you can skip the pipe fly. This is a bit slower.`,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `95 Exit, No Cape`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 2,
+                name: `No Cape, Yoshi`,
+                time: 189,
+                link: 'https://www.youtube.com/embed/vh7qYqqNayk',
+                desc: ``,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+      {
+        title: `Lunar Dragon`,
+        exits: {
+          normal: {
+            strats: [
+              {
+                id: 3,
+                name: `Pipe Fly`,
+                time: 190,
+                link: 'https://www.youtube.com/embed/bDUanTn1HQE',
+                desc: `Alternatively, you can skip the pipe fly. This is a bit slower.`,
+                source: `Sten`
+              },
+            ]
+          },
+          secret: null
+        }
+      },
+    ]
+  },
+  { // Donut Ghost House
+    name: `Donut Ghost House`,
+    id: '4',
+    world: 2,
+    image: null,
+    powerups: ['None'],
+    dragoncoins: false,
+    categories: [
+      {
+        title: ``,
+        exits: {
+          normal: {
+            strats: []
+          },
+          secret: {
+            strats: []
+          }
+        }
+      },
+    ]
   },
   { // vd1 not done
     name: `Vanilla Dome 1`,
@@ -1660,7 +1834,7 @@ export default [
                 name: `Flower Grab`,
                 time: 261,
                 link: 'https://www.youtube.com/embed/sFttmNb8SZ8',
-                desc: `This is the fastest flower to grab in Special World, and you'll need it if you go for Groovy Boss Kill.`,
+                desc: `This is the fastest flower to grab in Special World if you don't do Awesome Reznor Kill, and you'll need it if you go for Groovy Boss Kill.`,
                 source: `Sten`,
               },
               {

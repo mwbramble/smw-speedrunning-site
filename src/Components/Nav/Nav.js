@@ -21,6 +21,11 @@ export default class Nav extends Component{
             </NavLink>
           </li>
           <li>
+            <NavLink to={'/tutorials'} className='nav-link'>
+              Tutorials
+            </NavLink>
+          </li>
+          <li>
             <NavLink to={'/glossary'} className='nav-link'>
               Glossary
             </NavLink>
