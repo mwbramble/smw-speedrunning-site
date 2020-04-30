@@ -25,10 +25,6 @@ export default class LevelPage extends Component{
     };
   }
 
-  getImage(l){
-    return <img id='level-image' src={require(`../../Images/Levels/${l.id}.png`)} alt={l.name} />
-  }
-
   render(){
     const defaultStrat = {
       id: null,
@@ -87,7 +83,7 @@ export default class LevelPage extends Component{
           </ul>
         </div>
         <div className='level-info'>
-          {this.getImage(this.state.l)}
+          <img id='level-image' src={require(`../../Images/Levels/${this.state.l.id}.png`)} alt={this.state.l.name} />
           <p>Available Powerups: {this.state.l.powerups.join(', ')}</p>
           <p>This level {this.state.l.dragoncoins ? 'has' : 'does not have'} Dragon Coins{this.state.l.moon ? ' and a Moon' : ''}.</p>
         </div>

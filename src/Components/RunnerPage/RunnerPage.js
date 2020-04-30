@@ -3,10 +3,6 @@ import RUNNERS from '../../Data/runnerdata';
 import './runnerpage.css';
 
 export default class RunnerPage extends Component {
-  getFlag(r){
-    return <img id='runner-flag' src={require(`../../Images/Flags/${r.location.country}.png`)} alt={r.country + ' Flag'} />
-  }
-
   render(){
     const r = RUNNERS.filter(r => r.id === this.props.match.params.id)[0];
     const twitch = `https://twitch.tv/${r.links.twitch}`;
@@ -17,7 +13,7 @@ export default class RunnerPage extends Component {
     return (
       <section className='runnerpage-container'>
         <h1>{r.name}</h1>
-        <h3 id='location'>{r.location.subcountry ? r.location.subcountry + ', ' : ''}{r.location.country ? r.location.country : ''} {this.getFlag(r)} | Runner Since {r.began}</h3>
+        <h3 id='location'>{r.location.subcountry ? r.location.subcountry + ', ' : ''}{r.location.country ? r.location.country : ''} <img id='runner-flag' src={require(`../../Images/Flags/${r.location.country}.png`)} alt={r.country + ' Flag'} /> | Runner Since {r.began}</h3>
         <ul id='socials'>
           {r.links.twitch ? <li><a href={twitch}>Twitch</a></li> : ''}
           {r.links.youtube ? <li><a href={youtube}>YouTube</a></li> : ''}
