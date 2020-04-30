@@ -3,7 +3,6 @@ export default [
     name: `Yoshi's Island 1`,
     id: '105',
     world: 1,
-    image: null,
     powerups: ['Mushroom', 'Fire'],
     dragoncoins: true,
     moon: true,
@@ -94,7 +93,6 @@ export default [
     name: `Yoshi's Island 2`,
     id: '106',
     world: 1,
-    image: null,
     powerups: ['Mushroom', 'Yoshi'],
     dragoncoins: true,
     categories: [
@@ -242,7 +240,6 @@ export default [
     name: `Yoshi's Island 3`,
     id: '103',
     world: 1,
-    image: null,
     powerups: ['Fire', 'Yoshi'],
     dragoncoins: true,
     categories: [
@@ -288,7 +285,6 @@ export default [
     name: `Yoshi's Island 4`,
     id: '102',
     world: 1,
-    image: null,
     powerups: ['Fire'],
     dragoncoins: true,
     categories: [
@@ -342,7 +338,6 @@ export default [
     name: `Yellow Switch Palace`,
     id: '14',
     world: 1,
-    image: null,
     powerups: ['None'],
     dragoncoins: false,
     categories: [
@@ -406,7 +401,6 @@ export default [
     name: `#1 Iggy's Castle`,
     id: '',
     world: 1,
-    image: null,
     powerups: ['Fire'],
     dragoncoins: false,
     categories: [
@@ -538,7 +532,6 @@ export default [
     name: `Donut Plains 1`,
     id: '15',
     world: 2,
-    image: null,
     powerups: ['Mushroom', 'Cape', 'Yoshi'],
     dragoncoins: true,
     categories: [
@@ -681,7 +674,6 @@ export default [
     name: `Donut Plains 2`,
     id: '9',
     world: 2,
-    image: null,
     powerups: ['Mushroom', 'Cape'],
     dragoncoins: true,
     categories: [
@@ -812,7 +804,6 @@ export default [
     name: `Donut Plains 3`,
     id: '5',
     world: 2,
-    image: null,
     powerups: ['Cape'],
     dragoncoins: true,
     categories: [
@@ -936,7 +927,6 @@ export default [
     name: `Donut Plains 4`,
     id: '6',
     world: 2,
-    image: null,
     powerups: ['Mushroom', 'Fire', 'Cape', 'Yoshi'],
     dragoncoins: true,
     moon: true,
@@ -1079,7 +1069,6 @@ export default [
     name: `Green Switch Palace`,
     id: '8',
     world: 2,
-    image: null,
     powerups: ['None'],
     dragoncoins: false,
     categories: [
@@ -1143,7 +1132,6 @@ export default [
     name: `Donut Ghost House`,
     id: '4',
     world: 2,
-    image: null,
     powerups: ['None'],
     dragoncoins: false,
     categories: [
@@ -1164,7 +1152,6 @@ export default [
     name: `Vanilla Dome 1`,
     id: '11A',
     world: 3,
-    image: null,
     powerups: ['Fire', 'Cape (NTSC-U)'],
     dragoncoins: true,
     categories: [
@@ -1338,7 +1325,6 @@ export default [
     name: `Butter Bridge 1`,
     id: 'C',
     world: 4,
-    image: null,
     powerups: ['Cape'],
     dragoncoins: true,
     categories: [
@@ -1438,7 +1424,6 @@ export default [
     name: `Butter Bridge 2`,
     id: 'D',
     world: 4,
-    image: null,
     powerups: ['Cape', 'Yoshi'],
     dragoncoins: true,
     categories: [
@@ -1556,7 +1541,6 @@ export default [
     name: `Cheese Bridge Area`,
     id: 'F',
     world: 4,
-    image: null,
     powerups: ['Cape'],
     dragoncoins: true,
     moon: true,
@@ -1748,7 +1732,6 @@ export default [
     name: `Blue Switch Palace`,
     id: '121',
     world: 5,
-    image: null,
     powerups: ['None'],
     dragoncoins: false,
     categories: [
@@ -1812,7 +1795,6 @@ export default [
     name: `Awesome`,
     id: '12D',
     world: 9,
-    image: null,
     powerups: ['Fire'],
     dragoncoins: true,
     categories: [
