@@ -1,3 +1,5 @@
+// TODO: Add videos.
+
 export default [
   { // cgdq
     id: 'cgdq',

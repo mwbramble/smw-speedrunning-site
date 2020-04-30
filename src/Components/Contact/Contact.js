@@ -1,3 +1,5 @@
+// TODO: Maybe make a form for people to suggest things to add.
+
 import React, {Component} from 'react';
 import './contact.css';
 

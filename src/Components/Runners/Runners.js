@@ -29,17 +29,8 @@ export default class Runners extends Component {
         </select>
         <ul className='runner-list'>
           {RUNNERS.map(r => {
-            if(this.state.display === 'all'){
-              return (
-                <li key={r.id}>
-                  <Link to={`/runners/${r.id}`}>
-                    {r.name}
-                  </Link>
-                </li>
-              )
-            }
-            if(this.state.display === 'lbmod'){
-              if(r.lbmod){
+            switch(this.state.display){
+              case 'all':
                 return (
                   <li key={r.id}>
                     <Link to={`/runners/${r.id}`}>
@@ -47,29 +38,45 @@ export default class Runners extends Component {
                     </Link>
                   </li>
                 )
-              }
-            }
-            if(this.state.display === 'discordmod'){
-              if(r.discordmod){
-                return (
-                  <li key={r.id}>
-                    <Link to={`/runners/${r.id}`}>
-                      {r.name}
-                    </Link>
-                  </li>
-                )
-              }
-            }
-            if(this.state.display === 'top10'){
-              if(r.top10){
-                return (
-                  <li key={r.id}>
-                    <Link to={`/runners/${r.id}`}>
-                      {r.name}
-                    </Link>
-                  </li>
-                )
-              }
+
+              case 'lbmod':
+                if(r.lbmod){
+                  return (
+                    <li key={r.id}>
+                      <Link to={`/runners/${r.id}`}>
+                        {r.name}
+                      </Link>
+                    </li>
+                  )
+                }
+                break;
+
+              case 'discordmod':
+                if(r.discordmod){
+                  return (
+                    <li key={r.id}>
+                      <Link to={`/runners/${r.id}`}>
+                        {r.name}
+                      </Link>
+                    </li>
+                  )
+                }
+                break;
+
+              case 'top10':
+                if(r.top10){
+                  return (
+                    <li key={r.id}>
+                      <Link to={`/runners/${r.id}`}>
+                        {r.name}
+                      </Link>
+                    </li>
+                  )
+                }
+                break;
+
+              default:
+                return null;
             }
             return null;
           })}

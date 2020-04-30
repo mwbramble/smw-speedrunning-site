@@ -1,3 +1,5 @@
+// TODO: Add place for videos.
+
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import GDQINDEX from '../../Data/gdqdata';
@@ -13,7 +15,7 @@ export default class GDQ extends Component {
           {GDQINDEX.map(gdq =>
             <li key={gdq.id}>
               <b>{gdq.name}</b>
-              <ul  id='gdq'>
+              <ul id='gdq'>
                 {gdq.runs.map(r =>
                   <li key={r.catId}>
                     <Link to={`/categories/${r.catId}`}>{r.category}</Link> in {r.times} by <i>{r.runners}</i>.

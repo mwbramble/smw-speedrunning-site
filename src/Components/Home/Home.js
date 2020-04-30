@@ -1,4 +1,4 @@
-// TODO: add more content and make this page more interesting
+// TODO: Add more content and make this page more interesting.
 
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';

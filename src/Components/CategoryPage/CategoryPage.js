@@ -13,6 +13,7 @@ export default class CategoryPage extends Component {
     }
   }
   
+  // TODO: De-spaghetti this.
   populateTable(runs){
     // srcom gives run times in seconds, so i have to convert to hh:mm:ss
     let times = [];
