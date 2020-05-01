@@ -6,7 +6,6 @@
   name: ``,
   id: '',
   world: ,
-  image: null,
   powerups: [],
   dragoncoins: ,
   categories: [
