@@ -46,38 +46,39 @@ export default class LevelPage extends Component{
             )}
           </ul>
           <div className='level-active-category'>
-            <h2>{this.state.activeCategory.title}</h2>
-            <h3>{this.state.activeCategory.exits.normal ? 'Normal Exit' : ''}</h3>
-            <ul className='active-strats-normal'>
+            <h2 id='active-category-title'>{this.state.activeCategory.title}</h2>
+            <h3 id='active-category-exit'>{this.state.activeCategory.exits.normal ? 'Normal Exit' : ''}</h3>
+            <ul id='active-strats-normal'>
               {this.state.activeCategory.exits.normal ? this.state.activeCategory.exits.normal.strats.map(s => {
                 return (
-                <li id='level-category' key={s.id} onClick={(e) => this.setState({activeStrat: s})}>
-                  {s.name}{s.time ? ` - ${s.time}` : ''}
+                <li id='level-strat' key={s.id} onClick={(e) => this.setState({activeStrat: s})}>
+                  {s.name}{s.time ? ` - ${s.time}` : ''} | Source: {s.source}
                   <br />
                   {s.id === this.state.activeStrat.id ? (
-                    <ul id={s.id}>
-                      <li><a href={s.link}>Link</a></li>
-                      {s.desc === '' ? '' : <li>{s.desc}</li>}
-                      <li>Source: {s.source}</li>
-                    </ul>
+                    <>
+                      <iframe title={s.name} width="570" height="320" src={s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                      <i>{s.desc === '' ? '' : <li>{s.desc}</li>}</i>
+                    </>
                     ) : ''}
                 </li>
                 )
               }) : ''}
             </ul>
-            <h3>{this.state.activeCategory.exits.secret ? 'Secret Exit' : ''}</h3>
+            <h3 id='active-category-exit'>{this.state.activeCategory.exits.secret ? 'Secret Exit' : ''}</h3>
             <ul className='active-strats-secret'>
               {this.state.activeCategory.exits.secret ? this.state.activeCategory.exits.secret.strats.map(s => {
                 return (
-                <li key={s.id} onClick={(e) => this.setState({activeStrat: s})}>
+                  <li id='level-strat' key={s.id} onClick={(e) => this.setState({activeStrat: s})}>
                   {s.name}{s.time ? ` - ${s.time}` : ''}
                   <br />
                   {s.id === this.state.activeStrat.id ? (
-                    <ul id={s.id}>
-                      <li><a href={s.link}>Link</a></li>
-                      {s.desc === '' ? '' : <li>{s.desc}</li>}
-                      <li>Source: {s.source}</li>
-                    </ul>
+                    <>
+                      <iframe title={s.name} width="570" height="320" src={s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                      <ul id={s.id}>
+                        {s.desc === '' ? '' : <li>{s.desc}</li>}
+                        <li>Source: {s.source}</li>
+                      </ul>
+                    </>
                     ) : ''}
                 </li>
                 )
