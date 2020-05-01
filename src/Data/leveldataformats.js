@@ -1,5 +1,6 @@
 // Category Order
-// 96, AC, NSW, 11, 0, 95NC, ACNC, NCNSW, 11NC, ACSO, NSWSO, Small, LD
+// 96, AC, NSW, 11, 0, 95NC, ACNC
+// NCNSW, 11NC, ACSO, NSWSO, Small, LD
 
 // Level Template
 {

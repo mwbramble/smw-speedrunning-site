@@ -4,6 +4,31 @@ import Seal from '../../Images/smwseal.png';
 import './nav.css';
 
 export default class Nav extends Component{
+  componentDidMount(){
+    const themeSwitch = document.querySelector(`.theme-switch input[type='checkbox']`);
+    themeSwitch.addEventListener('change', this.switchTheme, false);
+
+    const currTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+    if(currTheme){
+      document.documentElement.setAttribute('data-theme', currTheme);
+
+      if(currTheme === 'dark'){
+        themeSwitch.checked = true;
+      }
+    }
+  }
+
+  switchTheme(e){
+    if(e.target.checked){
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+    else{
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('theme', 'light');
+    }
+  }
+
   render(){
     return (
       <nav role='navigation' className='nav'>
@@ -41,6 +66,13 @@ export default class Nav extends Component{
             </NavLink>
           </li>
         </ul>
+        <div className='theme-switch-container'>
+          <label className='theme-switch' for='toggle-cbox'>
+            <input type='checkbox' id='toggle-cbox' />
+            <div className='slider round'></div>
+          </label>
+          <em>Dark Mode</em>
+        </div>
       </nav>
     )
   }
