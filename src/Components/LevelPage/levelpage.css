@@ -1,0 +1,47 @@
+.level-container{
+  float: left;
+}
+
+.level-active-category{
+  padding-top: 20px;
+}
+
+.level-info{
+  margin-top: 20px;
+  float: right;
+  padding: 15px;
+  background-color: var(--content-highlight-bg);
+}
+
+#info-text{
+  margin: 0;
+  font-size: 12px;
+}
+
+#info-title{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#level-category{
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--content-highlight-bg);
+}
+
+#level-categories-list{
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+#level-ul-title{
+  margin-bottom: 5px;
+}

@@ -16,6 +16,7 @@ import RunnerPage from '../RunnerPage/RunnerPage';
 import Tutorials from '../Tutorials/Tutorials';
 import NotFound from '../NotFound/NotFound';
 import Footer from '../Footer/Footer';
+import '../../colorvariables.css';
 
 export default class App extends Component{
   render(){

@@ -1,0 +1,22 @@
+:root{
+  --bg: #E3E3E3;
+  --content-bg: #FFFFFF;
+  --content-highlight-bg: #EEEEEE;
+  --text: #000000;
+  --nav: #EEEEEE;
+  --nav-text: #000000;
+  --nav-li: ;
+  --nav-li-text: ;
+  --nav-li-border: ;
+  --footer: #EEEEEE;
+}
+
+[data-theme="dark"] {
+  --bg: #1F1F1F;
+  --text: #FFFFFF;
+  --nav: #141414;
+  --nav-text: #FFFFFF;
+  --content-bg: #252525;
+  --content-highlight-bg: #1F1F1F;
+  --footer: #141414;
+}

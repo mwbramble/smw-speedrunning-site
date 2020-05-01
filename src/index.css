@@ -1,10 +1,15 @@
 body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'lmsans10-regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+@font-face{
+  font-family: 'lmsans10-regular';
+  src: local('lmsans10-regular'), url(./fonts/lmsans10-regular.otf) format('truetype');
 }
 
 code{
@@ -17,13 +22,8 @@ main{
 }
 
 .content{
-  min-height: calc(100vh - 185px);
-  padding: 0 20vw;
+  min-height: calc(100vh - 165px);
+  margin: 0 20vw;
+  padding: 0 20px;
+  background-color: var(--content-bg);
 }
-
-/*
-CSS Variables for Light/Dark Theme
-:root{}
-
-[data-theme="dark"] {}
-*/
