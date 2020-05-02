@@ -12,7 +12,7 @@ export default class RunnerPage extends Component {
     
     return (
       <section className='runnerpage-container'>
-        <h1>{r.name}</h1>
+        <h1 id='page-title'>{r.name}</h1>
         <h3 id='location'>{r.location.subcountry ? r.location.subcountry + ', ' : ''}{r.location.country ? r.location.country : ''} <img id='runner-flag' src={require(`../../Images/Flags/${r.location.country}.png`)} alt={r.country + ' Flag'} /> | Runner Since {r.began}</h3>
         <ul id='socials'>
           {r.links.twitch ? <li><a href={twitch}>Twitch</a></li> : ''}

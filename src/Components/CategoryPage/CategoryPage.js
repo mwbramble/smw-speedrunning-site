@@ -1,4 +1,5 @@
-// TODO: add something that alerts the user when there arent enough runs to display
+// TODO: Add something that alerts the user when there aren't enough runs to display.
+// TODO: Either remove the route section or format it differently. Also link to each level.
 
 import React, {Component} from 'react';
 import CATEGORIES from '../../Data/categorydata';
@@ -125,7 +126,7 @@ export default class CategoryPage extends Component {
   render(){
     return (
       <section className='catpage-container'>
-        <h1 id='category-title'>{this.state.category[0].title}</h1>
+        <h1 id='page-title'>{this.state.category[0].title}</h1>
         <h3 id='about'>About</h3>
         <p id='desc'>{this.state.category[0].desc}</p>
         <div className='category-rules'>
@@ -159,16 +160,12 @@ export default class CategoryPage extends Component {
         </div>
         <div className='route'>
           <h3 id='route-label'>Route</h3>
-          {/* <button className='button' onClick={() => this.toggleRoute()}>Show/Hide</button> */}
           <ul id='route-list'>
             {this.state.category[0].route.map(level =>
               <li key={level}>{level}</li>
             )}
           </ul>
         </div>
-        {/* <div className='strats'>
-          <h3 id='strats-label'>Srats</h3>
-        </div> */}
       </section>
     )
   }

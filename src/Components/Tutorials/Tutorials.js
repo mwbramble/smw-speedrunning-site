@@ -5,7 +5,7 @@ export default class Tutorials extends Component{
   render(){
     return (
       <section className='tutorials-container'>
-        <h1>Tutorials</h1>
+        <h1 id='page-title'>Tutorials</h1>
         <ul>
           <li><b><a href='https://www.youtube.com/watch?v=uethAdgTs9k'>Morton Fly</a></b> by Bramz.</li>
           <li><b><a href='https://www.youtube.com/watch?v=s6-TlVgmNHQ'>Vanilla Dome 1 Wings</a></b> by Bramz.</li>

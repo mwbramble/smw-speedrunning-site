@@ -7,7 +7,7 @@ export default class Contact extends Component{
   render(){
     return (
       <section className='contact-container'>
-        <h1>Contact</h1>
+        <h1 id='page-title'>Contact</h1>
         <p>If there are any problems with this site or there is anything you would like added, please contact Bramz.</p>
         <p>You can find him in the following places:</p>
         <ul>

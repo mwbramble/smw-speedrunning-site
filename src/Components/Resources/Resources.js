@@ -5,7 +5,7 @@ export default class Resources extends Component {
   render(){
     return (
       <section className='resources-container'>
-        <h1>Resources</h1>
+        <h1 id='page-title'>Resources</h1>
         <h3 className='label'>Learning</h3>
         <ul>
           <li><a href='https://discord.gg/XzrQ26f'>SMW Speedrunning Discord</a></li>

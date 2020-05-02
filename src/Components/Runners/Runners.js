@@ -19,7 +19,7 @@ export default class Runners extends Component {
   render(){
     return (
       <section className='runners-container'>
-        <h1>Runners</h1>
+        <h1 id='page-title'>Runners</h1>
         <label for='runner-type'>Sort Runners By: </label>
         <select id='runner-type' onChange={() => this.sortRunners()}>
           <option value='all'>All</option>

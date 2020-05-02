@@ -9,7 +9,7 @@ export default class GDQ extends Component {
   render(){
     return (
       <section className='gdq-container'>
-        <h1>GDQ Runs</h1>
+        <h1 id='page-title'>GDQ Runs</h1>
         <p>Below is a list of every GDQ event that has showcased vanilla SMW and each of the runs done. Note that some of the category names may have changed since they were showcased.</p>
         <ul className='gdqList'>
           {GDQINDEX.map(gdq =>

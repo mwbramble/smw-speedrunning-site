@@ -7,7 +7,7 @@ export default class Levels extends Component{
   render(){
     return (
       <section className='levels-container'>
-        <h1>Levels</h1>
+        <h1 id='page-title'>Levels</h1>
         <h3>World 1</h3>
         <ul className='world-list' id='world-1'>
           {LEVELS.map(l => {

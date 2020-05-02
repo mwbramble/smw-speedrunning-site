@@ -1,3 +1,5 @@
+// TODO: Add star and moon sprites on side of dark mode switch
+
 import React, {Component} from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import Seal from '../../Images/smwseal.png';

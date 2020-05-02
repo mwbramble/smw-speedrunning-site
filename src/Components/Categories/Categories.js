@@ -7,7 +7,7 @@ export default class Categories extends Component{
   render(){
     return (
       <section className='categories-container'>
-        <h1>Categories</h1>
+        <h1 id='page-title'>Categories</h1>
         <ul className='categories-list'>
           {CATEGORIES.map(c =>
             <li key={c.id}>

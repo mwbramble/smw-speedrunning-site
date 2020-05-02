@@ -5,7 +5,7 @@ export default class NotFound extends Component{
   render(){
     return (
       <section className='notfound-container'>
-        <h1>404 Not Found</h1>
+        <h1 id='page-title'>404 Not Found</h1>
       </section>
     )
   }

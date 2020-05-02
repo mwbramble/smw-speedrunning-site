@@ -5,9 +5,7 @@
   --text: #000000;
   --nav: #EEEEEE;
   --nav-text: #000000;
-  --nav-li: ;
-  --nav-li-text: ;
-  --nav-li-border: ;
+  --nav-li-hover: #C9ADAD;
   --footer: #EEEEEE;
 }
 
@@ -16,6 +14,7 @@
   --text: #FFFFFF;
   --nav: #141414;
   --nav-text: #FFFFFF;
+  --nav-li-hover: #241818;
   --content-bg: #252525;
   --content-highlight-bg: #1F1F1F;
   --footer: #141414;

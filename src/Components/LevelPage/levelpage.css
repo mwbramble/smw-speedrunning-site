@@ -2,6 +2,10 @@
   float: left;
 }
 
+.level-active-category:blank{
+  display: none;
+}
+
 .level-active-category{
   margin-top: 80px;
   padding: 15px;
@@ -23,14 +27,9 @@
   margin: 0;
 }
 
-#active-strats-normal{
+#active-strats{
   margin-top: 0;
-  margin-left: -30px;
-  list-style-type: none;
-}
-
-#active-strats-secret{
-  margin: 0;
+  margin-left: -40px;
   list-style-type: none;
 }
 
@@ -69,4 +68,5 @@
 
 #level-strat{
   margin-bottom: 10px;
+  cursor: pointer;
 }
