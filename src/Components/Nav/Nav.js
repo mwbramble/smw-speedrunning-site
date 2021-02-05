@@ -1,4 +1,4 @@
-// TODO: Add star and moon sprites on side of dark mode switch
+// TODO: make dark mode toggle look better
 
 import React, {Component} from 'react';
 import {Link, NavLink} from 'react-router-dom';

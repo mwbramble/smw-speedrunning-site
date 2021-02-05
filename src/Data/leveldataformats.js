@@ -9,20 +9,22 @@
   world: ,
   powerups: [],
   dragoncoins: ,
-  categories: [
-    {
-      title: ``,
-      exits: {
-        normal: {
-          strats: []
-        },
-        secret: {
-          strats: []
-        }
-      }
-    },
-  ]
+  strats: {
+    normal: [],
+    secret: null
+  }
 },
+
+// Strat Template
+{
+  name: ,
+  id: ,
+  categories: [],
+  time: ,
+  link: '',
+  desc: ``,
+  source: ``
+}
 
 // Category Template
 {
@@ -35,14 +37,4 @@
       strats: []
     }
   }
-},
-
-// Strat Template
-{
-	id: ,
-	name: ``,
-	time: ,
-	link: '',
-	desc: ``,
-	source: ``
 },

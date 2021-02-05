@@ -78,14 +78,3 @@ export default [
     }
   }
 ]
-
-// Strat Template
-// {
-//   name: ,
-//   id: ,
-//   categories: [],
-//   time: ,
-//   link: '',
-//   desc: ``,
-//   source: ``
-// }
