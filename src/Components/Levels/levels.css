@@ -19,3 +19,15 @@
 .world-list ul{
   padding-left: 20px;
 }
+
+@media only screen and (max-width: 768px){
+  .world-list{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .world-list{
+    width: 100%;
+  }
+}
