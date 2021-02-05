@@ -11,8 +11,8 @@ import GDQHistory from '../GDQHistory/GDQHistory';
 import Levels from '../Levels/Levels';
 import LevelPage from '../LevelPage/LevelPage';
 import Resources from '../Resources/Resources';
-import Runners from '../Runners/Runners';
-import RunnerPage from '../RunnerPage/RunnerPage';
+// import Runners from '../Runners/Runners';
+// import RunnerPage from '../RunnerPage/RunnerPage';
 import Tutorials from '../Tutorials/Tutorials';
 import NotFound from '../NotFound/NotFound';
 import Footer from '../Footer/Footer';
@@ -65,14 +65,14 @@ export default class App extends Component{
               exact path='/resources'
               component={Resources}
             />
-            <Route
+            {/* <Route
               exact path='/runners'
               component={Runners}
             />
             <Route
               exact path='/runners/:id'
               component={RunnerPage}
-            />
+            /> */}
             <Route
               exact path='/tutorials'
               component={Tutorials}
