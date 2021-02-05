@@ -143,3 +143,23 @@ input:checked + .slider:before {
     padding: 0 1vw;
   }
 }
+
+@media only screen and (max-width: 707px){
+  #seal{
+    display: none;
+  }
+
+  #title{
+    margin-left: 5px;
+  }
+
+  .nav{
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 594px){
+  .nav li{
+    margin-bottom: 10px;
+  }
+}
