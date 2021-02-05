@@ -25,19 +25,19 @@ export default class LevelPage extends Component{
   render(){
     return (
       <section className='level-page-container'>
+        <h1 id='page-title'>{this.state.l.name}</h1>
         <div className='level-container'>
-          <h1 id='page-title'>{this.state.l.name}</h1>
           {this.state.l.strats.secret ? <h3 id='exit-type'>Normal</h3> : ''}
           {this.state.l.strats.normal ? this.state.l.strats.normal.map(s => {
             return (
               <div className='strat-container'>
-                <h3 id='level-name' onClick={(e) => this.toggle(s.id)}>{s.name}{s.time ? ` - ${s.time}` : ''} | Source: {s.source}</h3>
+                <h3 id='strat-name' onClick={(e) => this.toggle(s.id)}>{s.name}{s.time ? ` - ${s.time}` : ''} | Source: {s.source}</h3>
                 <p><strong>Categories:</strong> {s.categories.join(', ')}</p>
                 {s.id === this.state.activeStrat ? (
                   <>
                     <iframe title={s.name} width='570' height='320' src={s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
                     <br />
-                    <small>{s.desc === '' ? '' : s.desc}</small>
+                    <p id='strat-desc'>{s.desc === '' ? '' : s.desc}</p>
                   </>
                 ) : ''}
               </div>
@@ -47,11 +47,11 @@ export default class LevelPage extends Component{
           {this.state.l.strats.secret ? this.state.l.strats.secret.map(s => {
             return (
               <div className='strat-container'>
-                <h3 id='level-name' onClick={(e) => this.toggle(s.id)}>{s.name}{s.time ? ` - ${s.time}` : ''} | Source: {s.source}</h3>
+                <h3 id='strat-name' onClick={(e) => this.toggle(s.id)}>{s.name}{s.time ? ` - ${s.time}` : ''} | Source: {s.source}</h3>
                 <p><strong>Categories:</strong> {s.categories.join(', ')}</p>
                 {s.id === this.state.activeStrat ? (
                   <>
-                    <iframe title={s.name} width='570' height='320' src={s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                    <iframe title={s.name} src={s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
                     <br />
                     <small>{s.desc === '' ? '' : s.desc}</small>
                   </>

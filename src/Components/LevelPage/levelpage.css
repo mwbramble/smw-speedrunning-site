@@ -11,26 +11,86 @@
 
 .level-container{
   float: left;
+  width: calc(100% - 356px);
 }
 
 .level-info{
-  margin-top: 20px;
+  width: 256px;
   float: right;
   padding: 15px;
   background-color: var(--content-highlight-bg);
 }
 
-#level-name{
+#strat-desc{
   margin: 0;
 }
 
-#level-name:hover{
+#strat-name{
+  margin: 0;
+}
+
+#strat-name:hover{
   cursor: pointer;
 }
 
 .strat-container{
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
   padding: 15px;
-  max-width: 65%;
+  width: 771px;
   background-color: var(--content-highlight-bg);
+}
+
+iframe{
+  width: 100%;
+  max-width: 570px;
+  min-height: 320px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1265px){
+  .strat-container{
+    width: calc(100% + 20px);
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .level-info{
+    width: 200px;
+  }
+
+  #level-image{
+    width: 200px;
+  }
+
+  .strat-container{
+    width: calc(100% + 80px);
+  }
+  
+  iframe{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .level-info{
+    display: none;
+  }
+
+  .level-container{
+    width: calc(100% - 30px);
+  }
+
+  .strat-container{
+    width: 100%;
+  }
+
+  iframe{
+    min-height: 210px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  iframe{
+    min-height: 140px;
+  }
 }
