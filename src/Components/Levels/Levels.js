@@ -24,7 +24,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>World 2</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-2'>
           {LEVELS.map(l => {
             if(l.world === 2){
               return (
@@ -39,7 +39,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>World 3</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-3'>
           {LEVELS.map(l => {
             if(l.world === 3){
               return (
@@ -54,7 +54,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>World 4</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-4'>
           {LEVELS.map(l => {
             if(l.world === 4){
               return (
@@ -69,7 +69,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>World 5</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-5'>
           {LEVELS.map(l => {
             if(l.world === 5){
               return (
@@ -84,7 +84,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>World 6</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-6'>
           {LEVELS.map(l => {
             if(l.world === 6){
               return (
@@ -99,7 +99,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>World 7</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-7'>
           {LEVELS.map(l => {
             if(l.world === 7){
               return (
@@ -114,7 +114,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>Star World</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-st'>
           {LEVELS.map(l => {
             if(l.world === 8){
               return (
@@ -129,7 +129,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>Special World</h3>
-        <ul className='world-list' id='world-1'>
+        <ul className='world-list' id='world-sp'>
           {LEVELS.map(l => {
             if(l.world === 9){
               return (
