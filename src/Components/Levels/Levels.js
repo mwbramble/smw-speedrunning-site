@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import LEVELS from '../Unused/leveldataold';
+import LEVELS from '../../Data/leveldata';
 import './levels.css';
 
 export default class Levels extends Component{
@@ -114,7 +114,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>Star World</h3>
-        <ul className='world-list' id='world-st'>
+        <ul className='world-list' id='world-8'>
           {LEVELS.map(l => {
             if(l.world === 8){
               return (
@@ -129,7 +129,7 @@ export default class Levels extends Component{
           })}
         </ul>
         <h3>Special World</h3>
-        <ul className='world-list' id='world-sp'>
+        <ul className='world-list' id='world-9'>
           {LEVELS.map(l => {
             if(l.world === 9){
               return (

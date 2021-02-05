@@ -1,4 +1,16 @@
 export default [
+  { // YI1
+    name: `Yoshi's Island 1`,
+    id: '105',
+    world: 1,
+    powerups: ['Mushroom', 'Fire'],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
   { // YI2
     name: `Yoshi's Island 2`,
     id: '106',
@@ -76,5 +88,792 @@ export default [
       ],
       secret: null
     }
-  }
+  },
+  { // YI3
+    name: `Yoshi's Island 3`,
+    id: '103',
+    world: 1,
+    powerups: ['Fire', 'Yoshi'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // YI4
+    name: `Yoshi's Island 4`,
+    id: '102',
+    world: 1,
+    powerups: ['Fire'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // YSP
+    name: `Yellow Switch Palace`,
+    id: '14',
+    world: 1,
+    powerups: ['None'],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // #1C
+    name: `#1 Iggy's Castle`,
+    id: '101',
+    world: 1,
+    powerups: ['Fire'],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // DP1
+    name: `Donut Plains 1`,
+    id: '15',
+    world: 2,
+    powerups: ['Mushroom', 'Cape', 'Yoshi'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // DP2
+    name: `Donut Plains 2`,
+    id: '9',
+    world: 2,
+    powerups: ['Mushroom', 'Cape'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // DP3
+    name: `Donut Plains 3`,
+    id: '5',
+    world: 2,
+    powerups: ['Cape'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // DP4
+    name: `Donut Plains 4`,
+    id: '6',
+    world: 2,
+    powerups: ['Mushroom', 'Fire', 'Cape', 'Yoshi'],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // GSP
+    name: `Green Switch Palace`,
+    id: '8',
+    world: 2,
+    powerups: ['None'],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // DGH
+    name: `Donut Ghost House`,
+    id: '4',
+    world: 2,
+    powerups: ['None'],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // DS1
+    name: `Donut Secret 1`,
+    id: 'A',
+    world: 2,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // DS2
+    name: `Donut Secret 2`,
+    id: '10B',
+    world: 2,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // DSH
+    name: `Donut Secret House`,
+    id: '13',
+    world: 2,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // #2C
+    name: `#2 Morton's Castle`,
+    id: '7',
+    world: 2,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VD1
+    name: `Vanilla Dome 1`,
+    id: '11A',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // VD2
+    name: `Vanilla Dome 2`,
+    id: '118',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // VD3
+    name: `Vanilla Dome 3`,
+    id: '10A',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VD4
+    name: `Vanilla Dome 4`,
+    id: '119',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // RSP
+    name: `Red Switch Palace`,
+    id: '11B',
+    world: 3,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VGH
+    name: `Vanilla Ghost House`,
+    id: '107',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VS1
+    name: `Vanilla Secret 1`,
+    id: '109',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // VS2
+    name: `Vanilla Secret 2`,
+    id: '1',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VS3
+    name: `Vanilla Secret 3`,
+    id: '2',
+    world: 3,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VF
+    name: `Vanilla Fortress`,
+    id: 'B',
+    world: 3,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // #3C
+    name: `#3 Lemmy's Castle`,
+    id: '11C',
+    world: 3,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // BB1
+    name: `Butter Bridge 1`,
+    id: 'C',
+    world: 4,
+    powerups: ['Cape'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // BB2
+    name: `Butter Bridge 2`,
+    id: 'D',
+    world: 4,
+    powerups: ['Cape', 'Yoshi'],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CBA
+    name: `Cheese Bridge Area`,
+    id: 'F',
+    world: 4,
+    powerups: ['Cape'],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // CM
+    name: `Cookie Mountain`,
+    id: '10',
+    world: 4,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // SL
+    name: `Soda Lake`,
+    id: '11',
+    world: 4,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // #4C
+    name: `#4 Ludwig's Castle`,
+    id: 'E',
+    world: 4,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // FOI1
+    name: `Forest of Illusion 1`,
+    id: '11E',
+    world: 5,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // FOI2
+    name: `Forest of Illusion 2`,
+    id: '120',
+    world: 5,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // FOI3
+    name: `Forest of Illusion 3`,
+    id: '123',
+    world: 5,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // FOI4
+    name: `Forest of Illusion 4`,
+    id: '11F',
+    world: 5,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // BSP
+    name: `Blue Switch Palace`,
+    id: '121',
+    world: 5,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // FGH
+    name: `Forest Ghost House`,
+    id: '11D',
+    world: 5,
+    powerups: [],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // FSA
+    name: `Forest Secret Area`,
+    id: '122',
+    world: 5,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // FF
+    name: `Forest Fortress`,
+    id: '1F',
+    world: 5,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // #5C
+    name: `#5 Roy's Castle`,
+    id: '20',
+    world: 5,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CI1
+    name: `Chocolate Island 1`,
+    id: '22',
+    world: 6,
+    powerups: [],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CI2
+    name: `Chocolate Island 2`,
+    id: '24',
+    world: 6,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // CI3
+    name: `Chocolate Island 3`,
+    id: '23',
+    world: 6,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // CI4
+    name: `Chocolate Island 4`,
+    id: '1D',
+    world: 6,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CI5
+    name: `Chocolate Island 5`,
+    id: '1C',
+    world: 6,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CGH
+    name: `Choco-Ghost House`,
+    id: '21',
+    world: 6,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CS
+    name: `Chocolate Secret`,
+    id: '117',
+    world: 6,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // CF
+    name: `Chocolate Fortress`,
+    id: '1B',
+    world: 6,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // #6C
+    name: `#6 Wendy's Castle`,
+    id: '1A',
+    world: 6,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // SGS
+    name: `Sunken Ghost Ship`,
+    id: '18',
+    world: 7,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VOB1
+    name: `Valley of Bowser 1`,
+    id: '116',
+    world: 7,
+    powerups: [],
+    dragoncoins: true,
+    moon: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VOB2
+    name: `Valley of Bowser 2`,
+    id: '115',
+    world: 7,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // VOB3
+    name: `Valley of Bowser 3`,
+    id: '113',
+    world: 7,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // VOB4
+    name: `Valley of Bowser 4`,
+    id: '10F',
+    world: 7,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // VGH
+    name: `Valley Ghost House`,
+    id: '114',
+    world: 7,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // VF
+    name: `Valley Fortress`,
+    id: '111',
+    world: 7,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // #7C
+    name: `#7 Larry's Castle`,
+    id: '110',
+    world: 7,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // BC
+    name: `Bowser's Castle`,
+    id: '10D',
+    world: 7,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // SW1
+    name: `Star World 1`,
+    id: '134',
+    world: 8,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // SW2
+    name: `Star World 2`,
+    id: '130',
+    world: 8,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // SW3
+    name: `Star World 3`,
+    id: '132',
+    world: 8,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // SW4
+    name: `Star World 4`,
+    id: '135',
+    world: 8,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // SW5
+    name: `Star World 5`,
+    id: '136',
+    world: 8,
+    powerups: [],
+    dragoncoins: false,
+    strats: {
+      normal: [],
+      secret: []
+    }
+  },
+  { // Gnarly
+    name: `Gnarly`,
+    id: '12A',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Tubular
+    name: `Tubular`,
+    id: '12B',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Way Cool
+    name: `Way Cool`,
+    id: '12C',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Awesome
+    name: `Awesome`,
+    id: '12D',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Groovy
+    name: `Groovy`,
+    id: '128',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Mondo
+    name: `Mondo`,
+    id: '127',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Outrageous
+    name: `Outrageous`,
+    id: '126',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
+  { // Funky
+    name: `Funky`,
+    id: '125',
+    world: 9,
+    powerups: [],
+    dragoncoins: true,
+    strats: {
+      normal: [],
+      secret: null
+    }
+  },
 ]
