@@ -1,6 +1,7 @@
 export default [
   { // 96
     id: "96_exit",
+    type: "cape",
     title: "96 Exit",
     desc: `There isn't a category named '100%' in SMW, but this is generally accepted to be full completion run of the game. As stated below, this category necessitates the completion of all 96 of the game's intended exits (there are ways to increment the exit count on the title screen by the use of various glitches).`,
     leaderboard: `96_Exit`,
@@ -116,6 +117,7 @@ export default [
   },
   { // ac
     id: "ac",
+    type: "cape",
     title: "All Castles",
     desc: `This category serves as an alternative 'warpless' type run to No Starworld. Runners generally agree that this is a more fun route to NSW because this route excludes Butter Bridge 1 and includes more fun levels such as Vanilla Dome 3. In all, there are 33 exits to complete in this run.`,
     leaderboard: `All_Castles`,
@@ -168,6 +170,7 @@ export default [
   },
   { // nsw
     id: "nsw",
+    type: "cape",
     title: "No Starworld",
     desc: `No Starworld was the most popular 'warpless' type run until early 2016. This route takes the fastest path to Bowser without the use of Star World. In all, there are 31 exits to complete in this run.`,
     leaderboard: `No_Starworld`,
@@ -218,6 +221,7 @@ export default [
   },
   { // 11
     id: "11_exit",
+    type: "cape",
     title: "11 Exit",
     desc: `There isn't a category named 'Any%' in SMW, but this was generally accepted to be the equivalent until the discovery of 0 Exit. Since then, category names with percentages have been dropped to avoid confusion and debate. This category takes the shortest overworld path to Bowser, through Star World. There are three variants of this category: Cloud, Orb, and Glitchless. Cloud and Orb are two glitches used to skip parts of the run (Bowser's movements in the final fight and Iggy's Castle, respectively).`,
     leaderboard: `11_Exit`,
@@ -246,6 +250,7 @@ export default [
   },
   { // 0
     id: "0_exit",
+    type: "other",
     title: "0 Exit",
     desc: `This category skips the completion of any exits, and warps straight to the credits from Yoshi's Island 2 by use of Arbitrary Code Execution (ACE).`,
     leaderboard: `0_Exit`,
@@ -263,6 +268,7 @@ export default [
   },
   { // 95nc
     id: "95nc",
+    type: "no-cape",
     title: "95 Exit, No Cape",
     desc: `This is the no cape variant of 96 Exit. It is impossible to complete Donut Ghost House secret exit without cape, which is why this category isn't '96 Exit, No Cape'.`,
     leaderboard: `95_Exit_No_Cape`,
@@ -377,6 +383,7 @@ export default [
   },
   { // acnc
     id: "acnc",
+    type: "no-cape",
     title: "All Castles, No Cape",
     desc: `This is the no cape variant of All Castles`,
     leaderboard: `All_Castles_No_Cape`,
@@ -432,6 +439,7 @@ export default [
   },
   { // ncnsw
     id: "ncnsw",
+    type: "no-cape",
     title: "No Cape, No Starworld",
     desc: `This is the no cape variant of No Starworld.`,
     leaderboard: `No_Cape_No_Starworld`,
@@ -484,6 +492,7 @@ export default [
   },
   { // 11nc
     id: "11nc",
+    type: "no-cape",
     title: "11 Exit, No Cape",
     desc: `This is the no cape variant of 11 Exit. Similar to 11 Exit, there are three variants of 11NC: Cloud, Orb, and Glitchless.`,
     leaderboard: `11_Exit_No_Cape`,
@@ -514,6 +523,7 @@ export default [
   },
   { // acso
     id: "acso",
+    type: "small-only",
     title: "All Castles, Small Only",
     desc: `This is the small only variant of All Castles.`,
     leaderboard: `All_Castles_Small_Only`,
@@ -570,6 +580,7 @@ export default [
   },
   { // nswso
     id: "nswso",
+    type: "small-only",
     title: "No Starworld, Small Only",
     desc: `This is the small only variant of No Starworld.`,
     leaderboard: `No_Starworld_Small_Only`,
@@ -623,6 +634,7 @@ export default [
   },
   { // small
     id: "small",
+    type: "small-only",
     title: "Small Only",
     desc: `This is the small only variant of 11 Exit, however a different path must be taken on the overworld since it is impossible to complete Star World 1 without a Super Mushroom. In all, there are 14 exits to complete in this category.`,
     leaderboard: `Small_Only`,
@@ -660,6 +672,7 @@ export default [
   },
   { // ld
     id: "lunar_d",
+    type: "cape",
     title: "Lunar Dragon",
     desc: `This is a variant of 96 Exit that also requires the collection of Dragon Coins and Moons. It is generally done glitchless, although there is a glitched variant. This category has been argued to be the 'true 100%' of SMW, but no such label has been put on the category.`,
     leaderboard: `Lunar_Dragon`,

@@ -1,0 +1,20 @@
+.lists-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.category-list{
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--content-highlight-bg);
+  width: 21%;
+}
+
+#type-name{
+  margin: 0;
+}
+
+.category-list ul{
+  padding-left: 20px;
+}
