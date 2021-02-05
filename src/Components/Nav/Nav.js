@@ -3,6 +3,8 @@
 import React, {Component} from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import Seal from '../../Images/smwseal.png';
+import Star from '../../Images/star.png';
+import Moon from '../../Images/moon.png';
 import './nav.css';
 
 export default class Nav extends Component{
@@ -69,11 +71,12 @@ export default class Nav extends Component{
           </li>
         </ul>
         <div className='theme-switch-container'>
-          <label className='theme-switch' for='toggle-cbox'>
+          <img src={Star} id='theme-icon' alt='Star' />
+          <label className='theme-switch' htmlFor='toggle-cbox'>
             <input type='checkbox' id='toggle-cbox' />
             <div className='slider round'></div>
           </label>
-          <em>Dark Mode</em>
+          <img src={Moon} id='theme-icon' alt='Moon' />
         </div>
       </nav>
     )

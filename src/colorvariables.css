@@ -5,17 +5,21 @@
   --text: #000000;
   --nav: #EEEEEE;
   --nav-text: #000000;
-  --nav-li-hover: #C9ADAD;
+  --nav-li-hover: #A7C5D2;
+  --link: #0000FF;
+  --link-hover: #999999;
   --footer: #EEEEEE;
 }
 
 [data-theme="dark"] {
   --bg: #1F1F1F;
+  --content-bg: #252525;
+  --content-highlight-bg: #1F1F1F;
   --text: #FFFFFF;
   --nav: #141414;
   --nav-text: #FFFFFF;
-  --nav-li-hover: #241818;
-  --content-bg: #252525;
-  --content-highlight-bg: #1F1F1F;
+  --nav-li-hover: #5991AA;
+  --link: #5991AA;
+  --link-hover: #000000;
   --footer: #141414;
 }

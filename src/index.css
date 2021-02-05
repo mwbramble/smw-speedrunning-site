@@ -33,3 +33,12 @@ main{
   margin-top: 0;
   padding-top: 10px;
 }
+
+a{
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover{
+  text-shadow: 0 0 5px var(--link-hover);
+}
