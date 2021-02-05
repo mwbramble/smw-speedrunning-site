@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .world-list{
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   background-color: var(--content-highlight-bg);
-  width: 16%;
+  width: calc((100% + 30px) / 6);
 }
 
 #world-name{

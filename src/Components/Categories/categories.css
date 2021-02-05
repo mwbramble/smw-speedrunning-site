@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .category-list{
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   background-color: var(--content-highlight-bg);
-  width: 21%;
+  width: calc((100% + 30px) / 5);
 }
 
 #type-name{
@@ -17,4 +18,16 @@
 
 .category-list ul{
   padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px){
+  .category-list{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .category-list{
+    width: 100%;
+  }
 }
