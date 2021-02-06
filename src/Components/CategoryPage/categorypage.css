@@ -1,0 +1,11 @@
+#no-wr{
+  display: none;
+}
+#no-wr small{
+  color: var(--link);
+}
+
+#no-wr small:hover{
+  cursor: pointer;
+  text-shadow: 0 0 5px var(--link-hover);
+}

@@ -113,6 +113,7 @@ export default [
       `A post-run "file check" is strongly encouraged, but not required.`
     ],
     penalties: [],
+    wr: "/category/7kjrn323?top=1",
     top15: "/category/7kjrn323?top=15"
   },
   { // ac
@@ -166,6 +167,7 @@ export default [
       `No Submap Warp.`
     ],
     penalties: [],
+    wr: "/category/02qjj79d?top=1",
     top15: "/category/02qjj79d?top=15"
   },
   { // nsw
@@ -217,6 +219,7 @@ export default [
       `No Submap Warp.`
     ],
     penalties: [],
+    wr: "/category/zdn1jxkq?top=1",
     top15: "/category/zdn1jxkq?top=15"
   },
   { // 11
@@ -246,6 +249,7 @@ export default [
       `No Credits Warp.`
     ],
     penalties: [],
+    wr: "/category/n2y1y72o?top=1",
     top15: "/category/n2y1y72o?top=15"
   },
   { // 0
@@ -264,6 +268,7 @@ export default [
       `Video is required.`
     ],
     penalties: [],
+    wr: "/category/wkpjpzjk?top=1",
     top15: "/category/wkpjpzjk?top=15"
   },
   { // 95nc
@@ -379,6 +384,7 @@ export default [
     penalties: [
       `If a cape is obtained, die as soon as possible without utilizing it.`
     ],
+    wr: "/category/ndx31odq?top=1",
     top15: "/category/ndx31odq?top=15"
   },
   { // acnc
@@ -435,6 +441,7 @@ export default [
     penalties: [
       `If a cape is obtained, die as soon as possible without utilizing it.`
     ],
+    wr: "/category/5dw75lgk?top=1",
     top15: "/category/5dw75lgk?top=15"
   },
   { // ncnsw
@@ -488,6 +495,7 @@ export default [
     penalties: [
       `If a cape is obtained, die as soon as possible without utilizing it.`
     ],
+    wr: "/category/q257ngdo?top=1",
     top15: "/category/q257ngdo?top=15"
   },
   { // 11nc
@@ -519,6 +527,7 @@ export default [
     penalties: [
       `If a cape is obtained, die as soon as possible without utilizing it.`
     ],
+    wr: "/category/mkeyen26?top=1",
     top15: "/category/mkeyen26?top=15"
   },
   { // acso
@@ -576,6 +585,7 @@ export default [
       `If a mushroom is gained by taking an item through the goal tape, die as soon as possible.`,
       `If you grab a checkpoint, take damage as soon as possible, finish the level, and then redo that same exit.`
     ],
+    wr: "/category/wk6v75ed?top=1",
     top15: "/category/wk6v75ed?top=15"
   },
   { // nswso
@@ -630,6 +640,7 @@ export default [
       `If a mushroom is gained by taking an item through the goal tape, die as soon as possible.`,
       `If you grab a checkpoint, take damage as soon as possible, finish the level, and then redo that same exit.`
     ],
+    wr: "/category/n2y750e2?top=1",
     top15: "/category/n2y750e2?top=15"
   },
   { // small
@@ -668,6 +679,7 @@ export default [
       `If a mushroom is gained by taking an item through the goal tape, die as soon as possible.`,
       `If you grab a checkpoint, take damage as soon as possible, finish the level, and then redo that same exit.`
     ],
+    wr: "/category/n2y301do?top=1",
     top15: "/category/n2y301do?top=15"
   },
   { // ld
@@ -785,6 +797,7 @@ export default [
       `No Orb/Cloud.`
     ],
     penalties: [],
+    wr: "/category/7dg8zpg2?top=1",
     top15: "/category/7dg8zpg2?top=15"
   }
 ];
