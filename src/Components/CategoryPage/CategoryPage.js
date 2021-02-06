@@ -1,6 +1,3 @@
-// TODO: Add something that alerts the user when there aren't enough runs to display.
-// TODO: Either remove the route section or format it differently. Also link to each level.
-
 import React, {Component} from 'react';
 import CATEGORIES from '../../Data/categorydata';
 import './categorypage.css';
