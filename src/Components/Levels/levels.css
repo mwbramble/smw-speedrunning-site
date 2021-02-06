@@ -8,16 +8,17 @@
 .world-list{
   margin: 5px;
   padding: 10px;
-  background-color: var(--content-highlight-bg);
   width: calc((100% + 30px) / 6);
-}
 
-#world-name{
-  margin: 0;
+  background-color: var(--content-highlight-bg);
 }
 
 .world-list ul{
   padding-left: 20px;
+}
+
+#world-name{
+  margin: 0;
 }
 
 @media only screen and (max-width: 768px){

@@ -8,16 +8,17 @@
 .category-list{
   margin: 5px;
   padding: 10px;
-  background-color: var(--content-highlight-bg);
   width: calc((100% + 30px) / 5);
-}
 
-#type-name{
-  margin: 0;
+  background-color: var(--content-highlight-bg);
 }
 
 .category-list ul{
   padding-left: 20px;
+}
+
+#type-name{
+  margin: 0;
 }
 
 @media only screen and (max-width: 768px){

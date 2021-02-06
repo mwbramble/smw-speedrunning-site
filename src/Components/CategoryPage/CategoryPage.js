@@ -48,6 +48,7 @@ export default class CategoryPage extends Component {
         if(s.substring(3) === '000'){
           s = s.substring(0, 2);
         }
+
         // this if/else gets rid of the hours section if it is 0
         // ex: '34:07.178' instead of '00:34:07.178'
         if(h === 0){
@@ -102,17 +103,6 @@ export default class CategoryPage extends Component {
               )}
             </ul>
           </div>
-
-          {/* I dont think I want to keep this section, but I'll leave the code here just in case */}
-          {/* <div className='route'>
-            <h3 id='route-label'>Route</h3>
-            <ul id='route-list'>
-              {this.state.category[0].route.map(level =>
-                <li key={level}>{level}</li>
-              )}
-            </ul>
-          </div> */}
-
         </div>
         <div id='wr'></div>
           <div id='no-wr'>

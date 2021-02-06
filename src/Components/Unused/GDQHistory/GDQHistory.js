@@ -2,7 +2,7 @@
 
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import GDQINDEX from '../../Data/gdqdata';
+import GDQINDEX from '../../../Data/gdqdata';
 import './gdqhistory.css';
 
 export default class GDQ extends Component {
