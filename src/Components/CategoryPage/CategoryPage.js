@@ -58,7 +58,7 @@ export default class CategoryPage extends Component {
         }
       })
       document.getElementById('wr').innerHTML = (`
-        WR is ${parsedWRTime} by ${parsedRunner}
+        <span>WR is ${parsedWRTime} by ${parsedRunner}</span>
         <br />
         <small>
           <a href={'https://speedrun.com/smw#${this.state.category[0].leaderboard}'}>
@@ -85,16 +85,11 @@ export default class CategoryPage extends Component {
     return (
       <section className='catpage-container'>
         <h1 id='page-title'>{this.state.category[0].title}</h1>
-        <p id='wr'></p>
-        <p id='no-wr'>
-          WR is Unavailable.
-          <br />
-          <small onClick={() => alert('SRC sucks')}>(Why?)</small>
-        </p>
         <div className='category-container'>
           <div className='category-about-rules'>
             <h3 id='about'>About</h3>
             <p id='desc'>{this.state.category[0].desc}</p>
+            <hr />
             <h3 id='rules-label'>Rules/Penalties</h3>
             <ul id='rules-list'>
               {this.state.category[0].rules.map(rule =>
@@ -119,6 +114,12 @@ export default class CategoryPage extends Component {
           </div> */}
 
         </div>
+        <div id='wr'></div>
+          <div id='no-wr'>
+            <span>WR is Unavailable.</span>
+            <br />
+            <small onClick={() => alert('SRC sucks')}>(Why?)</small>
+          </div>
       </section>
     )
   }
