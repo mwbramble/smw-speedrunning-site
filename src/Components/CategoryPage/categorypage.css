@@ -29,3 +29,13 @@
   cursor: pointer;
   text-shadow: 0 0 5px var(--link-hover);
 }
+
+@media only screen and (max-width: 425px){
+  #no-wr, #wr{
+    display: none;
+  }
+
+  .category-container{
+    width: 100%;
+  }
+}
