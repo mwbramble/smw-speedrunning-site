@@ -1,5 +1,3 @@
-// TODO: fix styles on strat boxes when expanded
-
 import React, {Component} from 'react';
 import LEVELS from '../../Data/leveldata';
 import './levelpage.css';
