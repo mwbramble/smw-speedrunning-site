@@ -14,13 +14,40 @@ export default [
           categories: ['11 (Orb)'],
           time: 249,
           link: 'i6nbwgtzm-A',
-          desc: ``,
+          desc: `In most cases, it is fastest to die after getting the orb so you don't have to watch the Yellow Switch Palace overworld events.`,
           descLink: {
             path: '/glitches/orb',
             text: 'Learn more about the Orb glitch here.'
           },
           source: `Sten`
         },
+        {
+          name: 'Cape',
+          id: 2,
+          categories: ['96'],
+          time: 261,
+          link: 'ggbJON0imHI',
+          desc: ``,
+          source: `Sten`
+        },
+        {
+          name: 'No Cape',
+          id: 3,
+          categories: ['95NC', 'SO'],
+          time: 260,
+          link: 'p33u8WQlnYM',
+          desc: ``,
+          source: `Sten`
+        },
+        {
+          name: 'Dragon Coins',
+          id: 4,
+          categories: ['LD'],
+          time: 259,
+          link: 'hZznveNmmtc',
+          desc: ``,
+          source: `Umari0`
+        }
       ],
       secret: null
     }
@@ -110,7 +137,38 @@ export default [
     powerups: ['Fire', 'Yoshi'],
     dragoncoins: true,
     strats: {
-      normal: [],
+      normal: [
+        {
+          name: 'Small Only',
+          id: 1,
+          categories: [
+            `96`,
+            `AC`,
+            `NSW`,
+            `11 (Glitchless)`,
+            `95NC`,
+            `ACNC`,
+            `NCNSW`,
+            `11NC (Glitchless)`,
+            `ACSO`,
+            `NSWSO`,
+            `SO`
+          ],
+          time: 259,
+          link: 'gE34tasCAhE',
+          desc: `Running on the brown platforms makes the difference between 258 and 259, as Mario is pushed forward.`,
+          source: `Bramz`
+        },
+        {
+          name: 'Dragon Coins',
+          id: 2,
+          categories: ['LD'],
+          time: 256,
+          link: '_eJgZYKl2iI',
+          desc: ``,
+          source: `Umari0`
+        }
+      ],
       secret: null
     }
   },
@@ -121,7 +179,59 @@ export default [
     powerups: ['Fire'],
     dragoncoins: true,
     strats: {
-      normal: [],
+      normal: [
+        {
+          name: 'No Shell Jump',
+          id: 1,
+          categories: [
+            `96`,
+            `AC`,
+            `NSW`,
+            `11 (Glitchless)`,
+            `95NC`,
+            `ACNC`,
+            `NCNSW`,
+            `11NC (Glitchless)`,
+            `ACSO`,
+            `NSWSO`,
+            `SO`
+          ],
+          time: 275,
+          link: 'SEDKMBsngJs',
+          desc: `If you deliberately omit the shell jump, it is fastest to crush it with a spin jump.`,
+          source: `Sten`
+        },
+        {
+          name: 'Shell Jump',
+          id: 2,
+          categories: [
+            `96`,
+            `AC`,
+            `NSW`,
+            `11 (Glitchless)`,
+            `95NC`,
+            `ACNC`,
+            `NCNSW`,
+            `11NC (Glitchless)`,
+            `ACSO`,
+            `NSWSO`,
+            `SO`
+          ],
+          time: 276,
+          link: 'ufG_YvZxoUA',
+          desc: `To do the shell jump, quickly tap left then release and regrab Y/X. If timed correctly, Mario will bounce off of the shell and avoid the water. This saves about 0.2 seconds.`,
+          source: `rezephos`
+        },
+        {
+          name: 'Dragon Coins',
+          id: 3,
+          categories: ['LD'],
+          time: 274,
+          link: 'ORg9ufySB-0',
+          desc: ``,
+          source: `Umari0`
+        }
+      ],
       secret: null
     }
   },
@@ -132,7 +242,26 @@ export default [
     powerups: ['None'],
     dragoncoins: false,
     strats: {
-      normal: [],
+      normal: [
+        {
+          name: 'Cape',
+          id: 1,
+          categories: ['96', 'LD'],
+          time: 190,
+          link: 'OWr_0sRuow0',
+          desc: ``,
+          source: `Sten`
+        },
+        {
+          name: 'No Cape',
+          id: 2,
+          categories: ['95NC'],
+          time: 189,
+          link: 'thVT7W4aI2w',
+          desc: ``,
+          source: `Sten`
+        },
+      ],
       secret: null
     }
   },
@@ -143,7 +272,73 @@ export default [
     powerups: ['Fire'],
     dragoncoins: false,
     strats: {
-      normal: [],
+      normal: [
+        {
+          name: 'Get Fire',
+          id: 1,
+          categories: [
+            `96`,
+            `AC`,
+            `NSW`,
+            `11 (Glitchless)`,
+            `95NC`,
+            `ACNC`,
+            `NCNSW`,
+            `11NC (Glitchless)`
+          ],
+          time: 241,
+          link: 'm8uShJQJmL0',
+          desc: `Optimizing the cage section is hard, but getting an 81 door is fairly lenient.`,
+          source: `Bramz`
+        },
+        {
+          name: 'Underball',
+          id: 2,
+          categories: [
+            `96`,
+            `AC`,
+            `NSW`,
+            `11 (Cloud)`,
+            `11 (Glitchless)`,
+            `95NC`,
+            `ACNC`,
+            `NCNSW`,
+            `11NC (Cloud)`,
+            `11NC (Glitchless)`,
+            `ACSO`,
+            `NSWSO`,
+            `SO`
+          ],
+          time: 242,
+          link: 'OFLihKpYd_0',
+          desc: `This strat is a bit more advanced with not much time save. It is not recommended for beginners.`,
+          source: `rezephos`
+        },
+        {
+          name: 'P-Switch Jump',
+          id: 3,
+          categories: [
+            `96`,
+            `AC`,
+            `NSW`,
+            `11 (Cloud)`,
+            `11 (Glitchless)`,
+            `95NC`,
+            `ACNC`,
+            `NCNSW`,
+            `11NC (Cloud)`,
+            `11NC (Glitchless)`,
+            `ACSO`,
+            `NSWSO`,
+            `SO`
+          ],
+          time: 242,
+          link: 'JQTpVqcTUAw',
+          desc: `P-Switch jumps are frame perfect. There is also no good visual cue, so this is not recommended for RTA.`,
+          source: `Lambby`
+        },
+        
+      ],
       secret: null
     }
   },

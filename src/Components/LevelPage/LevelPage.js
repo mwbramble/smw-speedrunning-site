@@ -39,7 +39,7 @@ export default class LevelPage extends Component{
                     <br />
                     <p id='strat-desc'>{s.desc === '' ? '' : s.desc}</p>
                     {s.descLink
-                      ? <Link to={s.descLink.path}>{s.descLink.text}</Link>
+                      ? <><br /><Link to={s.descLink.path}>{s.descLink.text}</Link></>
                       : null
                     }
                   </>
