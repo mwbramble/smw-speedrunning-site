@@ -7,7 +7,21 @@ export default [
     dragoncoins: true,
     moon: true,
     strats: {
-      normal: [],
+      normal: [
+        {
+          name: 'No Cape, Yoshi, Get Orb',
+          id: 1,
+          categories: ['11 (Orb)'],
+          time: 249,
+          link: 'i6nbwgtzm-A',
+          desc: ``,
+          descLink: {
+            path: '/glitches/orb',
+            text: 'Learn more about the Orb glitch here.'
+          },
+          source: `Sten`
+        },
+      ],
       secret: null
     }
   },
@@ -36,7 +50,7 @@ export default [
             `SO`
           ],
           time: 361,
-          link: 'https://www.youtube.com/embed/Hmod32SwX6w',
+          link: 'Hmod32SwX6w',
           desc: `Getting a 361 is only possible if you release the d-pad on the correct frame. Mario's speed oscillates (49, 48, 47, 48, 47) when you hold the d-pad. If you release when your speed is 49 subpixels per frame, you will get a 361.`,
           source: `Bramz`
         },
@@ -48,7 +62,7 @@ export default [
             `11NC (Cloud)`
           ],
           time: 356,
-          link:'https://www.youtube.com/embed/ZhB4VpPE1SU',
+          link:'ZhB4VpPE1SU',
           desc: `You need to despawn the Koopa in a pixel-perfect location. If you are struggling with this, consider the easy setup.`,
           source: `IsoFrieze`
         },
@@ -60,7 +74,7 @@ export default [
             `11NC (Cloud)`
           ],
           time: 354,
-          link: 'https://www.youtube.com/embed/hk8rVl6ldwY',
+          link: 'hk8rVl6ldwY',
           desc: `This loses a couple seconds, but is extremely consistent.`,
           source: `LostC0re`
         },
@@ -72,7 +86,7 @@ export default [
             `11NC (Orb)`
           ],
           time: 358,
-          link: 'https://www.youtube.com/embed/3LtxEmleBXY',
+          link: '3LtxEmleBXY',
           desc: `This strat is only used for the Orb variant of 11 Exit and some category extensions.`,
           source: `Sten`
         },
@@ -81,7 +95,7 @@ export default [
           id: 5,
           categories: [`LD`],
           time: 358,
-          link: 'https://www.youtube.com/embed/UvKYSsJGmN4',
+          link: 'UvKYSsJGmN4',
           desc: `Using Yoshi for a boost up to the fourth coin is faster than using the vine.`,
           source: `Umari0`
         }

@@ -24,7 +24,7 @@
   link: '',
   desc: ``,
   source: ``
-}
+},
 
 // Category Template
 {

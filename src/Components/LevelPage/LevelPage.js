@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import LEVELS from '../../Data/leveldata';
 import './levelpage.css';
 
@@ -21,6 +22,7 @@ export default class LevelPage extends Component{
   }
 
   render(){
+    console.log(this.state.l)
     return (
       <section className='level-page-container'>
         <h1 id='page-title'>{this.state.l.name}</h1>
@@ -33,9 +35,13 @@ export default class LevelPage extends Component{
                 <p><strong>Categories:</strong> {s.categories.join(', ')}</p>
                 {s.id === this.state.activeStrat ? (
                   <>
-                    <iframe title={s.name} width='570' height='320' src={s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                    <iframe title={s.name} width='570' height='320' src={'https://youtube.com/embed/' + s.link + '?rel=0'} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
                     <br />
                     <p id='strat-desc'>{s.desc === '' ? '' : s.desc}</p>
+                    {s.descLink
+                      ? <Link to={s.descLink.path}>{s.descLink.text}</Link>
+                      : null
+                    }
                   </>
                 ) : ''}
               </div>
